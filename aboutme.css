@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+html{
+    background-color: #fef1d7;
+}
+
+.img-me{
+    position: absolute;
+    /* border: 86px solid #4e1605; */
+    /* display: inline-block; */
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.me{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 100;
+}
+
+.desc{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    width: 530px;
+    font-size: 20px;
+    text-align: justify;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 200px;
+
+}
+
+.abtme{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.back{
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    width: 70px;
+    border: 20px solid #4e1605;
+    color: white;
+    border-radius: 50%;
+    margin-left: 1200px;
+    margin-top: 50px;
+    background-color: #4e1605;
+    text-decoration: none;
+    text-align: center;
+    opacity: 50%;
+    transition: all 0.5s;
+
+}
+.back:hover{
+    opacity: 100%;
+    font-size: 20px;
+    width: 93px;
+}
+
+.stars{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 600px;
+}
+.stars2{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1220px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.contact{
+    z-index: 200;
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    width: 200px;
+    text-align: center;
+    background-color: #4e1605;
+    color: #fef1d7;
+    border: 20px solid #4e1605;
+    margin-top: 550px;
+    margin-left: 400px;
+    border-radius: 5%;
+}
+
+a:link{
+    color: aquamarine;
+}
+
+a:hover{
+    color: #f3d4d5;
+}
+
+a:visited{
+    color: #c1e1c1
+}
+
