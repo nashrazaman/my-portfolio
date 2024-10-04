@@ -32,6 +32,12 @@ nav a {
     
 }
 
+nav a.active {
+    background-color: #E0AC9D;
+    border-radius: 50px;  /* Optional to match hover style */
+    color: black;         /* Ensure the text color is readable */
+}
+
 .navbar{
     margin-left: 700px;
     margin-top: -310px;
@@ -72,4 +78,8 @@ a:hover{
 
 .custom-width .row + .row {
     margin-top: 10px;
+}
+
+#procreate, #mixed, #photoshop {
+    display: none;
 }
