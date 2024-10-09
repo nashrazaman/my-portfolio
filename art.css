@@ -43,12 +43,11 @@ nav a.active {
     margin-top: -310px;
 }
 
-a:hover{
-    /* color: rgb(255, 255, 255); */
-    /* background-color: rgb(194, 193, 193); */
+a:not(.back):hover{
     border: 1px solid black; 
-    border-radius: 50px;  
+    border-radius: 50px;
 }
+
 
 .image-container {
     position: relative;
@@ -82,4 +81,14 @@ a:hover{
 
 #procreate, #mixed, #photoshop {
     display: none;
+}
+
+.goback{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.goback:hover{
+    margin-top: 20px;
 }
