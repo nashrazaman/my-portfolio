@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html{
+    background-color: #d34500;
+}
+
+
+.bg{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+#pin-nibble{
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 380px;
+    z-index: 1000;
+}
+
+#pin-ait{
+    position: absolute;
+    z-index: 1000;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+#pin-font{
+    position: absolute;
+    z-index: 1000;
+    margin-top: 530px;
+    margin-left: 750px;
+}
+
+#pin-zine{
+    position: absolute;
+    z-index: 1000;
+    margin-top: 380px;
+    margin-left: 330px;
+}
+
+#pin-beat{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 200px;
+    z-index: 1000;
+ 
+    
+}
+
+#pin-bd{
+    position: absolute;
+    z-index: 1000;
+    margin-top: 580px;
+    margin-left: 400px;
+    
+}
+
+.pin{
+    transition: transform 0.3s ease-in-out;
+    animation: float 3s ease-in-out infinite;
+}
+
+.pin:hover {
+    animation: floatHover 1.5s ease-in-out infinite;
+}
+
+/* @keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+} */
+
+@keyframes floatHover {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.texts{
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+#nibble{
+    margin-left: -1050px;
+    margin-top: 200px;
+    z-index: 5000;
+}
+
+
+
