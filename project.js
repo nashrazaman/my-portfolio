@@ -5,7 +5,7 @@ pinNibble.addEventListener('mouseover', () => {
   nibbleText.style.display = 'block';
 });
 
-pinNibble.addEventListener('mouseleave', () => {
+pinNibble.addEventListener('mouseout', () => {
   nibbleText.style.display = 'none';
 });
 
