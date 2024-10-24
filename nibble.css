@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+ 
+html, body{
+    background-color: #d34400;
+}
+
+div{
+    font-family: "Agdasima", sans-serif;
+    text-align: center;
+    color: #fee7d0;
+    font-size: 30px;
+}
+
+.text{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 110px;
+}
+
+.text2{
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 110px;
+}
+
+img{
+    position: absolute;
+}
+
+.one{
+    margin-top: 100px;
+    margin-left: 900px;
+    
+}
+
+.two{
+    margin-left: 1150px;
+    margin-top: 200px;
+}
+
+.three{
+    margin-left: 900px;
+    margin-top: 550px;
+}
+
+.four{
+    margin-top: 650px;
+    margin-left: 1150px;
+}
+
+.box1{
+    margin-top: 100px;
+}
+
+.box2{
+    margin-top: 620px;
+}
+
+.title{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 60px;
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "ELSH" 0;
+    font-size: 55px;
+}
+
+.back{
+    margin-top: -70px;
+}
+.hover{
+    margin-top: -70px;
+}

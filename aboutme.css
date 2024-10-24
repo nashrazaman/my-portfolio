@@ -90,15 +90,33 @@ a{
     border-radius: 5%;
 }
 
-a:link{
-    color: aquamarine;
+a:link :not(.resume){
+    color: rgb(227, 220, 245);
 }
 
 a:hover{
     color: #f3d4d5;
 }
 
-a:visited{
+a:visited :not(.resume){
     color: #c1e1c1
+}
+
+.resume{
+    color: rgb(109, 55, 24);
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 900px;
+    font-size: 30px;
+    padding: 10px;
+    
+    
+}
+
+.arrow{
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 780px;
+
 }
 
