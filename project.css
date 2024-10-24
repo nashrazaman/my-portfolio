@@ -226,3 +226,12 @@ html, body{
     margin-top: 30px;
     color: antiquewhite;
 }
+
+.back{
+    position: absolute;
+    margin-top: -70px;
+}
+.hover{
+    position: absolute;
+    margin-top: -70px;
+}
