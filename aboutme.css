@@ -88,10 +88,12 @@ a{
     margin-top: 550px;
     margin-left: 400px;
     border-radius: 5%;
+    
 }
 
-a:link :not(.resume){
-    color: rgb(227, 220, 245);
+a:not(.resume){
+    color: #a5d7f5;
+
 }
 
 a:hover{

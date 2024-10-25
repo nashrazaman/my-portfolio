@@ -37,7 +37,7 @@ nav ul {
     display: block;
     transition: all 1s;
     border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
   }
   
   nav a:hover {
